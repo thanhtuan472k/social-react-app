@@ -10,7 +10,7 @@ export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">Viễn Ngu Ngơ</span>
+        <span className="logo">Sociala</span>
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
