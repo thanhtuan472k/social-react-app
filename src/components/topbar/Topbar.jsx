@@ -36,10 +36,7 @@ export default function Topbar() {
             <Chat />
             <span className="topbarIconBadge">2</span>
           </div>
-          <div className="topbarIconItem">
-            <Notifications />
-            <span className="topbarIconBadge">1</span>+
-          </div>
+
       </div>
       <div className="topbarRight">
         <div className="topbarIcons">

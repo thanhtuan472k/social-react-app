@@ -1,14 +1,15 @@
 import "./share.css";
-import {PermMedia, Label,Room, EmojiEmotions} from "@material-ui/icons"
+import {LiveTv, PhotoLibrary, PhotoCamera} from "@material-ui/icons"
 
 export default function Share() {
   return (
     <div className="share">
       <div className="shareWrapper">
+      <span>Create Post</span>
         <div className="shareTop">
           <img className="shareProfileImg" src="/assets/person/1.jpeg" alt="" />
           <input
-            placeholder="What's in your mind Safak?"
+            placeholder="What are you thinking?"
             className="shareInput"
           />
         </div>
@@ -16,20 +17,16 @@ export default function Share() {
         <div className="shareBottom">
             <div className="shareOptions">
                 <div className="shareOption">
-                    <PermMedia htmlColor="tomato" className="shareIcon"/>
-                    <span className="shareOptionText">Photo or Video</span>
+                    <LiveTv htmlColor="tomato" className="shareIcon"/>
+                    <span className="shareOptionText">Live Video</span>
                 </div>
                 <div className="shareOption">
-                    <Label htmlColor="blue" className="shareIcon"/>
-                    <span className="shareOptionText">Tag</span>
+                    <PhotoLibrary htmlColor="green" className="shareIcon"/>
+                    <span className="shareOptionText">Photo/Video</span>
                 </div>
                 <div className="shareOption">
-                    <Room htmlColor="green" className="shareIcon"/>
-                    <span className="shareOptionText">Location</span>
-                </div>
-                <div className="shareOption">
-                    <EmojiEmotions htmlColor="goldenrod" className="shareIcon"/>
-                    <span className="shareOptionText">Feelings</span>
+                    <PhotoCamera htmlColor="goldenrod" className="shareIcon"/>
+                    <span className="shareOptionText">Feelings/Activity</span>
                 </div>
             </div>
             <button className="shareButton">Share</button>
